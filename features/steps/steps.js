@@ -15,3 +15,4 @@ Then('validar a pagina e deve conter o texto aulas individuais ou em grupos pequ
   await expect(text).toHaveText('Aulas individuais ou em grupos pequenos. Inglês para todas as oportunidades, com foco em comunicação. Seguem o ritmo do aluno  e abordam assuntos variados.');
   await page.waitForTimeout(1500);
 });
+
